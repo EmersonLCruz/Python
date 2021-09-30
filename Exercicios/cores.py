@@ -6,11 +6,4 @@ cores = {'branco':'\033[m',
         'roxo':'\033[35m',
         'cinza':'\033[37m'}
 
-T = 1
-M = 5
-C = 10
 
-for T in range (M):
-    C = C * (1 + T)
-        
-print(C)
