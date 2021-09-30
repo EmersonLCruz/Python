@@ -1,0 +1,6 @@
+valor = int(input('Digite um número entre 0 e 9999:'))
+print('Analisando o número {}'.format(valor))
+print('Milhares = {}'.format(valor // 1000))
+print('Centenas = {}'.format(valor // 100 % 10))
+print('Dezenas  = {}'.format(valor // 10 % 10))
+print('Unidades = {}'.format(valor % 10))

@@ -1,0 +1,5 @@
+frase = input('Digite uma frase:').strip().upper()
+conta_letra = frase.count('A')
+print('Ha frase contem {} letras a'.format(conta_letra))
+print('O primeiro a esta na posição {}'.format(frase.find('A') + 1))
+print('O ultimo a esta na posição {}'.format(frase.rfind('A') + 1))
