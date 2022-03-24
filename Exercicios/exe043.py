@@ -5,11 +5,11 @@ imc = peso / (altura ** 2)
 print('IMC = {:.2F}'.format(imc))
 if imc < 18.5:
     print('Classificação: MAGREZA')
-elif 18.5 <= imc <= 24.9:
+elif  imc <= 24.9:
     print('Classificação: NORMAL')
-elif 25 <= imc <= 29.9:
+elif  imc <= 29.9:
     print('Classificação: SOBREPESO')
-elif 30 <= imc <= 39.9:
+elif  imc <= 39.9:
     print('Classificação: OBESIDADE')
 else:
     print('Classificação: OBESIDADE GRAVE')
